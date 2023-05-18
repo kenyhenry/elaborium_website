@@ -5,14 +5,20 @@ import './Navbar.css';
 function NavBar({ history }) {
   const navigate = useNavigate();
 
+  const who = (event) => {
+    event.preventDefault();
+    who.current.scrollIntoView({ behavior: 'smooth' });
+  }
+  const offers = (event) => {
+    event.preventDefault();
+    offers.current.scrollIntoView({ behavior: 'smooth' });
+  }
+  const contact = (event) => {
+    event.preventDefault();
+    contact.current.scrollIntoView({ behavior: 'smooth' });
+  }
   const rea = () => {
     navigate("/Realisation", { replace: true });
-  }
-  const team = () => {
-    navigate("/Team", { replace: true });
-  }
-  const contact = () => {
-    navigate("/Contact", { replace: true });
   }
 
   return (
@@ -20,14 +26,17 @@ function NavBar({ history }) {
       <nav className="navbar">
       <ul className="nav-menu">
         <li className="nav-item">
-          <button onClick={rea}> Réalisation</button>
+          <button onClick={who}> Qui sommes-nous ?</button>
         </li>
         <li className="nav-item">
-          <button onClick={team}> Team</button>
+          <button onClick={offers}> Nos offres</button>
         </li>
-        {/* <li className="nav-item">
-          <button onClick={contact}> Politique</button>
-        </li> */}
+        <li className="nav-item">
+          <button onClick={contact}> Contact</button>
+        </li>
+        <li className="nav-item">
+          <button onClick={rea}> Réalisation</button>
+        </li>
       </ul>
     </nav>
     </div>

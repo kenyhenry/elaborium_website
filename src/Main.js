@@ -1,25 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 import './App.css';
+import './Navbar.css';
+
 import Header from './Header';
-import Navbar from './Navbar';
 
 const projects = [
   {
     title: 'Développement de scripts automatisés',
     description: 'Création de scripts personnalisés pour automatiser des tâches répétitives ou complexes.',
     text: '/Contactddd.smdfbDJFBNVLSDJKGHFVLSKDEJHFKASWDEBJVLKASDBVKJB',
+    price: "200$"
   },
   {
-    title: "Développement d'applications de bureau",
+    title: "Développement d'applications de bureau/web",
     description: "Création d'applications de bureau pour répondre aux besoins spécifiques d'une entreprise.",
     text: 'https://exemple.com/projet2',
-  },
-  {
-    title: "Développement d'applications web",
-    description: " Création d'applications web sur mesure, telles que des sites web interactifs ou des portails clients.",
-    text: 'https://exemple.com/projet3',
   },
   {
     title: "Développement de logiciels personnalisés",
@@ -62,28 +60,78 @@ const Main = () => {
   const initialState = Array.from({ length: projects.length }, () => false);
   const [states, setStates] = useState(initialState);
 
-  return (
-    <div className="container">
-      <Navbar></Navbar>
-      <Header></Header>
+  const navigate = useNavigate();
 
-      <p className="global-description">
+  const who_div = useRef(null);
+  const offers_div = useRef(null);
+  const contact_div = useRef(null);
+
+  const who = (event) => {
+    // event.preventDefault();
+    who_div.current.scrollIntoView({ behavior: 'smooth' });
+  }
+  const offers = (event) => {
+    // event.preventDefault();
+    offers_div.current.scrollIntoView({ behavior: 'smooth' });
+  }
+  const contact = (event) => {
+    // event.preventDefault();
+    contact_div.current.scrollIntoView({ behavior: 'smooth' });
+  }
+  const rea = () => {
+    navigate("/Realisation", { replace: true });
+  }
+
+
+  return (
+    <div>
+      <div>
+
+      {/* navbar overflow on mobile */}
+      <nav className="navbar">
+      <ul className="nav-menu">
+        <li className="nav-item">
+          <button onClick={who}> Qui sommes-nous ?</button>
+        </li>
+        <li className="nav-item">
+          <button onClick={offers}> Nos offres</button>
+        </li>
+        <li className="nav-item">
+          <button onClick={contact}> Contact</button>
+        </li>
+        <li className="nav-item">
+          <button onClick={rea}> Réalisation</button>
+        </li>
+      </ul>
+    </nav>
+    </div>
+      <Header></Header>
+        {/* add some text + div overflow on mobile*/}
+      <div ref={who_div} style={{width: '1000px', margin: '0 auto'}}>
+      <h2 style={{textAlign: "center"}}>
+        Qui sommes-nous ?
+      </h2>
+      <p>
       Nous proposons une prestation de service en mode agile pour accompagner votre entreprise dans la réalisation de vos projets.
       </p>
-      <p className="global-description">
+      <p>
       Nous favorisons la transparence, la communication régulière et la collaboration étroite avec vos équipes.
       </p>
-      <p className="global-description">
+      <p>
       Vous bénéficierez d'une approche itérative et incrémentale, d'une amélioration continue et d'une meilleure maîtrise des risques.
       </p>
-      <p className="global-description">
+      <p>
       Facturation par fonctionnalité, nous facturons en fonction des fonctionnalités livrées et acceptées.
       </p>
+      </div>
+      <div className="container">
       <h2>
         Nos Offres
       </h2>
+      {/* add price on offers + add description */}
+      <div ref={offers_div} className="offers-container">
       {projects.map((project, index) => (
-        <div className="project" key={index}>
+        <div className="offer-item" key={index} style={{ wordWrap: 'break-word' }}>
           <h2 className="project-title">{project.title}</h2>
           <p className="project-description">{project.description}</p>
           {project.extended= states[index]}
@@ -97,10 +145,20 @@ const Main = () => {
             {project.extended ? 'Voir moins' : 'Voir plus'}
           </button>
           <p className="project-description">
-          {project.extended && ('\n') && (project.text)}
+          {project.extended && (project.text)}
+          <p>arround {project.price}</p>
           </p>
         </div>
       ))}
+      </div>
+      <div ref={contact_div} style={{width: '1000px', margin: '0 auto'}}>
+      <h2 style={{textAlign: "center"}}>
+        Contact
+      </h2>
+      {/* link on mobil to call directly same with mail address */}
+      <p className="project-description">
+      Kény HENRY mobile:0640292594 mail:henry.keny@outlook.fr
+      </p>
       <footer className="footer">
         <ul className="social-icons">
           <li>
@@ -116,6 +174,8 @@ const Main = () => {
         </ul>
         <p>© 2023 Kény HENRY. Tous droits réservés.</p>
       </footer>
+      </div>
+      </div>
     </div>
   );
 };
