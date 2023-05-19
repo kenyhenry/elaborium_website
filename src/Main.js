@@ -88,12 +88,11 @@ const Main = () => {
     setMenuOpen(!isMenuOpen);
   };
 
-// one dive black the other white
   return (
     <div>
       <div>
       <nav className="navbar">
-      <div className="navbar-logo">Logo</div>
+      <div className="navbar-logo"></div>
       <button className="navbar-toggle" onClick={toggleMenu}>
         <span className="menu-icon"></span>
       </button>
@@ -119,17 +118,11 @@ const Main = () => {
       <h2 style={{textAlign: "center"}}>
         Qui sommes-nous ?
       </h2>
-      <p>
-      Nous proposons une prestation de service en mode agile pour accompagner votre entreprise dans la réalisation de vos projets.
-      </p>
-      <p>
-      Nous favorisons la transparence, la communication régulière et la collaboration étroite avec vos équipes.
-      </p>
-      <p>
-      Vous bénéficierez d'une approche itérative et incrémentale, d'une amélioration continue et d'une meilleure maîtrise des risques.
-      </p>
-      <p>
-      Facturation par fonctionnalité, nous facturons en fonction des fonctionnalités livrées et acceptées.
+      <p style={{fontSize:"20px"}}>
+      Nous proposons une prestation de service en mode agile pour accompagner votre entreprise dans la réalisation de vos projets.<br></br>
+      Nous favorisons la transparence, la communication régulière et la collaboration étroite avec vos équipes.<br></br>
+      Vous bénéficierez d'une approche itérative et incrémentale, d'une amélioration continue et d'une meilleure maîtrise des risques.<br></br>
+      Facturation par fonctionnalité, nous facturons en fonction des fonctionnalités livrées et acceptées.<br></br>
       </p>
       </div>
       <div className="container">
@@ -159,11 +152,12 @@ const Main = () => {
         </div>
       ))}
       </div>
-      <div ref={contact_div} style={{maxwidth: '1000px', margin: '0 auto', alignItems: "center"}}>
-      <h2 style={{textAlign: "center"}}>
+      </div>
+      <div ref={contact_div} style={{height:"100%",paddingTop:"10px", alignItems: "center", background:"#333", textAlign:"center"}}>
+      <h2 style={{textAlign: "center", color:"white"}}>
         Contact
       </h2>
-      <p className="project-description">
+      <p style={{color:"white"}}>
       Kény HENRY mobile:<a href="tel:+33640292594" className="project-link">+33640292594</a>
       mail:<a href="mailto:henry.keny@outlook.fr" className="project-link">henry.keny@outlook.fr</a>
       </p>
@@ -182,7 +176,6 @@ const Main = () => {
         </ul>
         <p>© 2023 Kény HENRY. Tous droits réservés.</p>
       </footer>
-      </div>
       </div>
     </div>
   );
