@@ -21,7 +21,7 @@ function Header() {
     <header style={headerStyle}>
       <div>
       <h1>
-        <TypingAnimation text="Software Engineer" speed={100} />
+        <TypingAnimation text="Expertise Logiciel" speed={100} />
       </h1>
       <h2>
         Kény HENRY

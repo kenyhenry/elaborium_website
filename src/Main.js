@@ -82,14 +82,24 @@ const Main = () => {
     navigate("/Realisation", { replace: true });
   }
 
+  const [isMenuOpen, setMenuOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
+// one dive black the other white
   return (
     <div>
       <div>
 
       {/* navbar overflow on mobile */}
       <nav className="navbar">
-      <ul className="nav-menu">
+      <div className="navbar-logo">Logo</div>
+      <button className="navbar-toggle" onClick={toggleMenu}>
+        <span className="menu-icon"></span>
+      </button>
+      <ul  className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}>
         <li className="nav-item">
           <button onClick={who}> Qui sommes-nous ?</button>
         </li>
@@ -107,7 +117,7 @@ const Main = () => {
     </div>
       <Header></Header>
         {/* add some text + div overflow on mobile*/}
-      <div ref={who_div} style={{width: '1000px', margin: '0 auto'}}>
+      <div ref={who_div} className="container">
       <h2 style={{textAlign: "center"}}>
         Qui sommes-nous ?
       </h2>
@@ -151,7 +161,7 @@ const Main = () => {
         </div>
       ))}
       </div>
-      <div ref={contact_div} style={{width: '1000px', margin: '0 auto'}}>
+      <div ref={contact_div} style={{maxwidth: '1000px', margin: '0 auto', alignItems: "center"}}>
       <h2 style={{textAlign: "center"}}>
         Contact
       </h2>
