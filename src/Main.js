@@ -92,8 +92,6 @@ const Main = () => {
   return (
     <div>
       <div>
-
-      {/* navbar overflow on mobile */}
       <nav className="navbar">
       <div className="navbar-logo">Logo</div>
       <button className="navbar-toggle" onClick={toggleMenu}>
@@ -165,9 +163,9 @@ const Main = () => {
       <h2 style={{textAlign: "center"}}>
         Contact
       </h2>
-      {/* link on mobil to call directly same with mail address */}
       <p className="project-description">
-      Kény HENRY mobile:0640292594 mail:henry.keny@outlook.fr
+      Kény HENRY mobile:<a href="tel:+33640292594" className="project-link">+33640292594</a>
+      mail:<a href="mailto:henry.keny@outlook.fr" className="project-link">henry.keny@outlook.fr</a>
       </p>
       <footer className="footer">
         <ul className="social-icons">
