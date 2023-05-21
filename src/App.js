@@ -17,10 +17,10 @@ function App() {
              <Main/>
           </Suspense>}
         />
-        <Route path="Offer" element={<Offer />} />
-        <Route path="Realisation" element={<Realisation />} />
-        <Route path="Team" element={<Team />} />
-        <Route path="Contact" element={<Contact />} />
+        <Route path="/Offer" element={<Offer />} />
+        <Route path="/Realisation" element={<Realisation />} />
+        <Route path="/Team" element={<Team />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </HashRouter>
   );
