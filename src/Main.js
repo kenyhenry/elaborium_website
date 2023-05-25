@@ -26,7 +26,7 @@ const projects = [
   },
   {
     title: "Développement de logiciels/backend personnalisés",
-    description: " Création de logiciels sur mesure répondant aux besoins uniques d'une entreprise, avec une interface graphique conviviale.",
+    description: "Création de logiciels sur mesure répondant aux besoins uniques d'une entreprise, avec une interface graphique conviviale.",
     text: `Pensez-y comme à la création d'un moteur puissant qui alimente tout le fonctionnement d'un site web ou d'une application, mais de manière invisible pour les utilisateurs. Ce moteur personnalisé est conçu pour gérer les tâches complexes et les bases de données, traiter les informations, et garantir que tout fonctionne de manière fluide et sans accrocs.
     Prenons l'exemple d'une entreprise de vente en ligne de vêtements qui souhaite développer un logiciel/backend personnalisé pour gérer ses stocks et ses commandes de manière efficace.
     L'équipe de développement travaillerait à la création d'un système sur mesure qui permettrait à l'entreprise de suivre en temps réel les niveaux de stock de chaque article, de gérer les commandes des clients et de coordonner l'expédition des produits.
