@@ -21,11 +21,11 @@ function Header() {
   return (
     <header style={headerStyle}>
       <div>
-      <img src={logo} alt="" style={{width:"100px", height:"auto"}}></img>
-      <h1 style={{fontSize:"80px", marginTop:"0px"}}>
+      <img src={logo} alt="" style={{width:"13vh", height:"auto"}}></img>
+      <h1 style={{fontSize:"10vh", marginTop:"0px"}}>
         <TypingAnimation text="Expertise Logiciel" speed={100} />
       </h1>
-      <h2 style={{color:"white", fontSize:"40px"}}>
+      <h2 style={{color:"white", fontSize:"6vh"}}>
         Kény HENRY
       </h2>
       </div>
