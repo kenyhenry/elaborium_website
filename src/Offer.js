@@ -20,7 +20,7 @@ const Offer = (props) => {
         {paragraphs.map((paragraph, index) => (
         <p key={index} style={{fontSize:"20px"}}>{paragraph}.</p>
       ))}
-        <h2 style={{fontSize:"40px"}}>à partir de {price} € / fonctionnalité</h2>
+        {/* <h2 style={{fontSize:"40px"}}>à partir de {price} € / fonctionnalité</h2> */}
       </div>
     </div>
   );
