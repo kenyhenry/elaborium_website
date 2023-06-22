@@ -204,9 +204,9 @@ const Main = () => {
             Voir plus
           </button>
           <p className="project-description">
-          {project.price ?
-          <p>à partir de {project.price} € / fonctionnalité</p>
-          : <p>personnalisé</p>}
+          {/* {project.price ? */}
+          {/* // <p>à partir de {project.price} € / fonctionnalité</p> */}
+          {/* // : <p>personnalisé</p>} */}
           </p>
         </div>
       ))}
