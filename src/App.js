@@ -1,6 +1,7 @@
 import { Route, HashRouter, Routes } from 'react-router-dom';
 import React, { Suspense } from 'react';
 import Main from './Main';
+import Website from './Website';
 import Spinner from 'react-bootstrap/Spinner';
 import Offer from './Offer';
 import Realisation from './Realisation';
@@ -17,6 +18,7 @@ function App() {
              <Main/>
           </Suspense>}
         />
+        <Route path="/Website" element={<Website />} />
         <Route path="/Offer" element={<Offer />} />
         <Route path="/Realisation" element={<Realisation />} />
         <Route path="/Team" element={<Team />} />
