@@ -24,9 +24,9 @@ const Main = () => {
       <div id='main_div'>
       <h1>Expert Logiciel</h1>
       <h2 style={{color: 'white', marginBottom:'30px'}}>Kény</h2>
-        <Link to="/">
+        <a href="https://calendly.com/kenyh/45min" target="_blank" rel="noopener noreferrer">
           <button className="kave-btn">Créneaux rendez-vous</button>
-        </Link>
+        </a>
         <Link to="/Website">
           <button className="kave-btn">Website</button>
         </Link>
