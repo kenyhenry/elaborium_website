@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/elaborium_website/static/css/main.c16ab59f.css",
-    "main.js": "/elaborium_website/static/js/main.394cc6cd.js",
+    "main.css": "/elaborium_website/static/css/main.79a79925.css",
+    "main.js": "/elaborium_website/static/js/main.9b0c7378.js",
     "static/js/787.aec07ae1.chunk.js": "/elaborium_website/static/js/787.aec07ae1.chunk.js",
     "static/media/background_main.png": "/elaborium_website/static/media/background_main.a1eb888a3966db45067a.png",
     "static/media/11.jpg": "/elaborium_website/static/media/11.cb2d833a444c2c5970ce.jpg",
+    "static/media/kaouka-logo.png": "/elaborium_website/static/media/kaouka-logo.4f1b37aa00c8d0b2984f.png",
     "index.html": "/elaborium_website/index.html",
-    "main.c16ab59f.css.map": "/elaborium_website/static/css/main.c16ab59f.css.map",
-    "main.394cc6cd.js.map": "/elaborium_website/static/js/main.394cc6cd.js.map",
+    "main.79a79925.css.map": "/elaborium_website/static/css/main.79a79925.css.map",
+    "main.9b0c7378.js.map": "/elaborium_website/static/js/main.9b0c7378.js.map",
     "787.aec07ae1.chunk.js.map": "/elaborium_website/static/js/787.aec07ae1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c16ab59f.css",
-    "static/js/main.394cc6cd.js"
+    "static/css/main.79a79925.css",
+    "static/js/main.9b0c7378.js"
   ]
 }
