@@ -33,9 +33,6 @@ const Main = () => {
         <a href="https://github.com/kenyhenry" target="_blank" rel="noopener noreferrer">
           <button className="kave-btn">Github</button>
         </a>
-        <a href="https://kenyhenry.github.io/gearo/" target="_blank" rel="noopener noreferrer">
-          <button className="kave-btn">GearO</button>
-        </a>
         <a href="https://instagram.com/elaborium_dev?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer">
           <button className="kave-btn">Instagram</button>
         </a>

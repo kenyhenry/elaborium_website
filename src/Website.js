@@ -140,6 +140,9 @@ const Website = () => {
   const rea = () => {
     navigate("/Realisation", { replace: true });
   }
+  const cv = () => {
+    navigate("/CV", { replace: true });
+  }
 
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -167,6 +170,9 @@ const Website = () => {
         </li>
         <li className="nav-item">
           <button onClick={rea}> Réalisation</button>
+        </li>
+        <li className="nav-item">
+          <button onClick={cv}> CV</button>
         </li>
       </ul>
     </nav>
