@@ -125,10 +125,10 @@ const Website = () => {
   const offers_div = useRef(null);
   const contact_div = useRef(null);
 
-  const who = (event) => {
-    event.preventDefault();
-    who_div.current.scrollIntoView({ behavior: 'smooth' });
-  }
+  // const who = (event) => {
+  //   event.preventDefault();
+  //   who_div.current.scrollIntoView({ behavior: 'smooth' });
+  // }
   const offers = (event) => {
     event.preventDefault();
     offers_div.current.scrollIntoView({ behavior: 'smooth' });
@@ -151,7 +151,7 @@ const Website = () => {
   };
 
   return (
-    <div>
+    <div style={{overflowY: 'auto'}}>
       <div>
       <nav className="navbar">
       <div className="navbar-logo"></div>

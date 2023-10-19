@@ -8,7 +8,7 @@ const Offer = (props) => {
   };
 
   const location = useLocation();
-  const { title, text, price } = location.state;
+  const { title, text } = location.state;
   const paragraphs = text.split('.');
 
   return (

@@ -10,7 +10,7 @@ import kaouka_logo from './images/kaouka-logo.png';
 const Realisation = () => {
   const navigate = useNavigate();
   const main = () => {
-    navigate("/", { replace: true });
+    navigate("/Website", { replace: true });
   };
 
   const goToKaouka = () => {
