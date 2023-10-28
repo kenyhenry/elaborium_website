@@ -26,16 +26,16 @@ function NavBar({ history }) {
       <nav className="navbar">
       <ul className="nav-menu">
         <li className="nav-item">
-          <button onClick={who}> Qui sommes-nous ?</button>
+          <button className="button-nav" onClick={who}> Qui sommes-nous ?</button>
         </li>
         <li className="nav-item">
-          <button onClick={offers}> Nos offres</button>
+          <button className="button-nav" onClick={offers}> Nos offres</button>
         </li>
         <li className="nav-item">
-          <button onClick={contact}> Contact</button>
+          <button className="button-nav" onClick={contact}> Contact</button>
         </li>
         <li className="nav-item">
-          <button onClick={rea}> Réalisation</button>
+          <button className="button-nav" onClick={rea}> Réalisation</button>
         </li>
       </ul>
     </nav>

@@ -163,16 +163,16 @@ const Website = () => {
           {/* <button onClick={who}> Qui sommes-nous ?</button> */}
         </li>
         <li className="nav-item">
-          <button onClick={offers}> Mes offres</button>
+          <button className="button-style" onClick={offers}> Mes offres</button>
         </li>
         <li className="nav-item">
-          <button onClick={contact}> Contact</button>
+          <button className="button-style" onClick={contact}> Contact</button>
         </li>
         <li className="nav-item">
-          <button onClick={rea}> Réalisation</button>
+          <button className="button-style" onClick={rea}> Réalisation</button>
         </li>
         <li className="nav-item">
-          <button onClick={cv}> CV</button>
+          <button className="button-style" onClick={cv}> CV</button>
         </li>
       </ul>
     </nav>
@@ -204,7 +204,7 @@ const Website = () => {
         <div className="offer-item" key={index} style={{ wordWrap: 'break-word' }}>
           <h2 className="project-title">{project.title}</h2>
           <p className="project-description">{project.description}</p>
-          <button onClick={() => {
+          <button className="button-style" onClick={() => {
             navigate("/Offer", {state:{ title: project.title, text: project.text, price: project.price }});
           }}>
             Voir plus

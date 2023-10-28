@@ -9,6 +9,7 @@ import Kaouka from './Kaouka';
 import CV from './CV';
 import Team from './Team';
 import Contact from './Contact';
+// import Formation from './Formation';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/CV" element={<CV />} />
         <Route path="/Team" element={<Team />} />
         <Route path="/Contact" element={<Contact />} />
+        {/* <Route path="/Formation" element={<Formation />} /> */}
       </Routes>
     </HashRouter>
   );

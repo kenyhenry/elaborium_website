@@ -14,7 +14,7 @@ const CV = () => {
 
   return (
     <div>
-      <button onClick={main}> Return</button>
+      <button className="button-style" onClick={main}> Return</button>
       <div className="container">
         <h2>Nexter Système</h2>
         {/* <img alt="nexter" src={nexter_img}></img> */}

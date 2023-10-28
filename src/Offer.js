@@ -4,7 +4,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 const Offer = (props) => {
   const navigate = useNavigate();
   const main = () => {
-    navigate("/", { replace: true });
+    navigate("/Website", { replace: true });
   };
 
   const location = useLocation();
@@ -13,7 +13,7 @@ const Offer = (props) => {
 
   return (
     <div style={{width:"100%"}}>
-      <button onClick={main}> Return</button>
+      <button className="button-style" onClick={main}> Return</button>
       <div style={{width:"100%", textAlign:"center"}}>
         <h2>{title}</h2>
         {/* adjust text */}

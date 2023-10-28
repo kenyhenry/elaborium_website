@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import './Main.css';
-import './wave_button.scss';
+// import './wave_button.scss';
 
 const Main = () => {
 
@@ -23,7 +23,7 @@ const Main = () => {
     <div id='div'>
       <div id='main_div'>
       <h1>Expert Logiciel</h1>
-      <h2 style={{color: 'white', marginBottom:'30px'}}>Kény</h2>
+      {/* <h2 style={{color: 'white', marginBottom:'30px'}}>Kény</h2> */}
         <a href="https://calendly.com/kenyh/45min" target="_blank" rel="noopener noreferrer">
           <button className="kave-btn">Créneaux rendez-vous</button>
         </a>

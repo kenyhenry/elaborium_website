@@ -10,7 +10,7 @@ const Team = () => {
 
   return (
     <div>
-      <button onClick={main}> Retour</button>
+      <button className="button-style" onClick={main}> Retour</button>
       <div className="container">
         <h2>Kény HENRY</h2>
         <p>0640292594</p>

@@ -52,7 +52,7 @@
   }
 
 
-  button {
+  .button-nav {
     padding: 10px 20px;
     background-color: #FFC000;
     color: black;
@@ -61,8 +61,8 @@
     font-size: 20px;
     cursor: pointer;
   }
-  button:hover {
-    background-color: #FFD100;
+  .button-nav:hover {
+    background-color: #F4CE14;
   }
 
 
@@ -82,7 +82,7 @@
     height: 2px;
     background-color: #000;
   }
-  
+
   .menu-icon::before {
     transform: translateY(-6px);
   }

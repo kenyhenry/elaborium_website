@@ -131,7 +131,7 @@ h5 {
   padding: 20px;
 }
 
-button {
+.button-style {
   padding: 10px 20px;
   background-color: #FFC000;
   color: black;
@@ -140,6 +140,6 @@ button {
   font-size: 20px;
   cursor: pointer;
 }
-button:hover {
-  background-color: #FFD100;
+.button-style:hover {
+  background-color: #F4CE14;
 }

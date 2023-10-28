@@ -10,8 +10,8 @@ const Contact = () => {
 
   return (
     <div>
-      <button onClick={main}> Return</button>
-      <div classname="container">
+      <button className="button-style" onClick={main}> Return</button>
+      <div className="container">
         <p>Dans les méthodes Agile, le paiement est généralement basé sur des itérations ou des livraisons continues plutôt que sur des modèles de paiement traditionnels. Voici quelques approches courantes de paiement utilisées dans les projets Agile :
 
 Facturation au temps et aux matériaux : Dans cette approche, le client est facturé en fonction du temps passé par l'équipe de développement sur le projet et des coûts matériels associés, tels que les licences logicielles ou l'infrastructure. Les paiements sont effectués périodiquement, généralement mensuellement ou selon un autre accord convenu.
