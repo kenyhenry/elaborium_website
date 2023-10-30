@@ -83,7 +83,7 @@ const CV = () => {
         </p>
         <h2>GearO</h2>
         {/* <img alt="gearo" src={gearo_img} style={{width:"300px"}}></img> */}
-        <h3>Développement d’un jeu video MMPORG Play2Earn cryptomonnaie</h3>
+        <h3>Développement d’un jeu video MMPORG Play2Earn classNamemonnaie</h3>
         <p className="global-description">
           • Conception d’un backend NodeJs capable de recevoir des dizaines de
           milliers de connexions en simultané

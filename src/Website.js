@@ -144,6 +144,10 @@ const Website = () => {
     navigate("/CV", { replace: true });
   }
 
+  const formation = () => {
+    navigate("/Formation", { replace: true });
+  }
+
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -173,6 +177,9 @@ const Website = () => {
         </li>
         <li className="nav-item">
           <button className="button-style" onClick={cv}> CV</button>
+        </li>
+        <li className="nav-item">
+          <button className="button-style" onClick={formation}> Formation</button>
         </li>
       </ul>
     </nav>

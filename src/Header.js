@@ -25,9 +25,6 @@ function Header() {
       <h1 style={{fontSize:"7vh", marginTop:"0px"}}>
         <TypingAnimation text="Expertise Logiciel" speed={100} />
       </h1>
-      <h2 style={{color:"white", fontSize:"4vh"}}>
-        Kény HENRY
-      </h2>
       </div>
     </header>
   );
