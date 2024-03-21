@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/elaborium_website/static/css/main.3ef3c50a.css",
-    "main.js": "/elaborium_website/static/js/main.430d0155.js",
+    "main.js": "/elaborium_website/static/js/main.b06253f0.js",
     "static/js/787.aec07ae1.chunk.js": "/elaborium_website/static/js/787.aec07ae1.chunk.js",
     "static/media/invoice-logo.png": "/elaborium_website/static/media/invoice-logo.432e14751ba328d1ed0e.png",
     "static/media/background_main.png": "/elaborium_website/static/media/background_main.a1eb888a3966db45067a.png",
@@ -9,11 +9,11 @@
     "static/media/11.jpg": "/elaborium_website/static/media/11.cb2d833a444c2c5970ce.jpg",
     "index.html": "/elaborium_website/index.html",
     "main.3ef3c50a.css.map": "/elaborium_website/static/css/main.3ef3c50a.css.map",
-    "main.430d0155.js.map": "/elaborium_website/static/js/main.430d0155.js.map",
+    "main.b06253f0.js.map": "/elaborium_website/static/js/main.b06253f0.js.map",
     "787.aec07ae1.chunk.js.map": "/elaborium_website/static/js/787.aec07ae1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ef3c50a.css",
-    "static/js/main.430d0155.js"
+    "static/js/main.b06253f0.js"
   ]
 }
