@@ -5,7 +5,7 @@ import './App.css';
 const Contact = () => {
   const navigate = useNavigate();
   const main = () => {
-    navigate("/", { replace: true });
+    navigate("/");
   }
 
   return (

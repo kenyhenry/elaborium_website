@@ -5,7 +5,7 @@ import './App.css';
 const Team = () => {
   const navigate = useNavigate();
   const main = () => {
-    navigate("/Website", { replace: true });
+    navigate("/Website");
   }
 
   return (

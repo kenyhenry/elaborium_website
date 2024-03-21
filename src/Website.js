@@ -138,14 +138,14 @@ const Website = () => {
     contact_div.current.scrollIntoView({ behavior: 'smooth' });
   }
   const rea = () => {
-    navigate("/Realisation", { replace: true });
+    navigate("/Realisation");
   }
   const cv = () => {
-    navigate("/CV", { replace: true });
+    navigate("/CV");
   }
 
   const formation = () => {
-    navigate("/Formation", { replace: true });
+    navigate("/Formation");
   }
 
   const [isMenuOpen, setMenuOpen] = useState(false);

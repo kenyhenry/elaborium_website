@@ -8,12 +8,12 @@ import invoice_logo from './images/invoice-logo.png';
 const Realisation = () => {
   const navigate = useNavigate();
   const main = () => {
-    navigate("/Website", { replace: true });
+    navigate("/Website");
   };
 
   const goTo = (page) => {
     console.log(page);
-    navigate("/"+page, { replace: true });
+    navigate("/"+page);
   };
 
   const projects = [

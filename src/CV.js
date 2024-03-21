@@ -9,7 +9,7 @@ import "./App.css";
 const CV = () => {
   const navigate = useNavigate();
   const main = () => {
-    navigate("/Website", { replace: true });
+    navigate("/Website");
   };
 
   return (

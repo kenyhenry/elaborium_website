@@ -18,7 +18,7 @@ function NavBar({ history }) {
     contact.current.scrollIntoView({ behavior: 'smooth' });
   }
   const rea = () => {
-    navigate("/Realisation", { replace: true });
+    navigate("/Realisation");
   }
 
   return (

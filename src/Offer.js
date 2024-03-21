@@ -4,7 +4,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 const Offer = (props) => {
   const navigate = useNavigate();
   const main = () => {
-    navigate("/Website", { replace: true });
+    navigate("/Website");
   };
 
   const location = useLocation();

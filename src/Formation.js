@@ -6,7 +6,7 @@ import "./Formation.css";
 const Formation = () => {
   const navigate = useNavigate();
   const main = () => {
-    navigate("/Website", { replace: true });
+    navigate("/Website");
   };
   // const [numPages, setNumPages] = useState(null);
   // const [pageNumber, setPageNumber] = useState(1);
