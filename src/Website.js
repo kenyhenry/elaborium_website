@@ -157,32 +157,32 @@ const Website = () => {
   return (
     <div style={{overflowY: 'auto'}}>
       <div>
-      <nav className="navbar">
-      <div className="navbar-logo"></div>
-      <button className="navbar-toggle" onClick={toggleMenu}>
-        <span className="menu-icon"></span>
-      </button>
-      <ul  className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}>
-        <li className="nav-item">
-          {/* <button onClick={who}> Qui sommes-nous ?</button> */}
-        </li>
-        <li className="nav-item">
-          <button className="button-style" onClick={offers}> Mes offres</button>
-        </li>
-        <li className="nav-item">
-          <button className="button-style" onClick={contact}> Contact</button>
-        </li>
-        <li className="nav-item">
-          <button className="button-style" onClick={rea}> Réalisation</button>
-        </li>
-        <li className="nav-item">
-          <button className="button-style" onClick={cv}> CV</button>
-        </li>
-        <li className="nav-item">
-          <button className="button-style" onClick={formation}> Formation</button>
-        </li>
-      </ul>
-    </nav>
+        <nav className="navbar">
+          <div className="navbar-logo"></div>
+          <button className="navbar-toggle" onClick={toggleMenu}>
+            <span className="menu-icon"></span>
+          </button>
+          <ul className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}>
+            <li className="nav-item">
+              {/* <button onClick={who}> Qui sommes-nous ?</button> */}
+            </li>
+            <li className="nav-item">
+              <button className="button-style" onClick={offers}> Mes offres</button>
+            </li>
+            <li className="nav-item">
+              <button className="button-style" onClick={contact}> Contact</button>
+            </li>
+            <li className="nav-item">
+              <button className="button-style" onClick={rea}> Réalisation</button>
+            </li>
+            <li className="nav-item">
+              <button className="button-style" onClick={cv}> CV</button>
+            </li>
+            {/* <li className="nav-item">
+              <button className="button-style" onClick={formation}> Formation</button>
+            </li> */}
+          </ul>
+        </nav>
     </div>
       <Header></Header>
         {/* add some text*/}

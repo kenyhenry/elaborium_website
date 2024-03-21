@@ -6,6 +6,7 @@ import Spinner from 'react-bootstrap/Spinner';
 import Offer from './Offer';
 import Realisation from './Realisation';
 import Kaouka from './Kaouka';
+import GithubInvoice from './Github-Invoice';
 import CV from './CV';
 import Team from './Team';
 import Contact from './Contact';
@@ -25,6 +26,7 @@ function App() {
         <Route path="/Offer" element={<Offer />} />
         <Route path="/Realisation" element={<Realisation />} />
         <Route path="/Kaouka" element={<Kaouka />} />
+        <Route path="/GithubInvoice" element={<GithubInvoice />} />
         <Route path="/CV" element={<CV />} />
         <Route path="/Team" element={<Team />} />
         <Route path="/Contact" element={<Contact />} />
