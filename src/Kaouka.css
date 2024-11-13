@@ -74,3 +74,17 @@
     text-align: center;
     padding: 10px;
 }
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.centered-content {
+  padding: 20px;
+  /* background-color: lightblue; */
+  border-radius: 8px;
+}
