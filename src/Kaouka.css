@@ -75,6 +75,13 @@
     padding: 10px;
 }
 
+.side-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
 .centered-container {
   display: flex;
   justify-content: center;
