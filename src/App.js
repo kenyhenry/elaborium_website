@@ -10,6 +10,7 @@ import Kaouka from './Kaouka';
 import Kaouka_app_apple from './Kaouka_app_apple';
 import Kaouka_app_android from './Kaouka_app_android';
 import Kaouka_app_cgu from './Kaouka_app_cgu';
+import Kaouka_app_cgu_en from './Kaouka_app_cgu_en';
 import GithubInvoice from './Github-Invoice';
 import CV from './CV';
 import Team from './Team';
@@ -36,6 +37,7 @@ function App() {
           <Route path="/Kaouka_app_apple" element={<Kaouka_app_apple />} />
           <Route path="/Kaouka_app_android" element={<Kaouka_app_android />} />
           <Route path="/Kaouka_app_cgu" element={<Kaouka_app_cgu />} />
+          <Route path="/Kaouka_app_cgu_en" element={<Kaouka_app_cgu_en />} />
           <Route path="/GithubInvoice" element={<GithubInvoice />} />
           <Route path="/CV" element={<CV />} />
           <Route path="/Team" element={<Team />} />

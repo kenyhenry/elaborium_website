@@ -101,6 +101,7 @@ L'éditeur est responsable des dommages causés à l'utilisateur par l'applicati
 Article 14 : Loi applicable et juridiction compétente
 Les CGU sont soumises au droit français. En cas de litige, les tribunaux français seront seuls compétents.
 ignorer les conditions générales d'utilisation et continuer à utiliser l'application Kaouka signifie que vous acceptez les conditions générales d'utilisation.
+Kaouka Condition spéciale:
 La viande de porc, l'alcool et les produits à inhaler (cigarette, vapoteur ...) sont prohibé, le réseau kaouka se reserve le droit de modération.
       </p>
     </div>
