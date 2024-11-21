@@ -69,7 +69,7 @@ const Realisation = () => {
   };
 
   const handleClickAndroid = () => {
-    window.location.href = 'https://kenyhenry.github.io/elaborium_website/app-release.apk';
+    window.location.href = 'https://kenyhenry.github.io/elaborium_website/kaouka-1.0.0.apk';
     // window.location.href = 'http://localhost:3000/elaborium_website/kaouka-1.0.0.apk';
   };
 
