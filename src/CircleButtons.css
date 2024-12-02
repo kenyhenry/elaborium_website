@@ -1,0 +1,65 @@
+/* src/components/CircleButtons.css */
+.circle-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    /* border: 2px solid #ccc; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-button {
+    /* width: 50px;
+    height: 50px; */
+    font-size: 20px;
+    background-color: rgba(0, 0, 50, 230);
+    /* margin: 20px auto; */
+    color: white;
+    border: None;
+    border-radius: 8px;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+  }
+  
+  .circle-button:hover {
+    /* background-color: transparent; */
+    /* animation: multicolorBlur 1.5s infinite;  */
+    box-shadow: 0 0 35px 5px rgba(0, 0, 255, 0.8);
+  }
+
+  @media (max-width: 768px) {
+    .circle-container {
+      max-width: 300px; /* Reduce size on small screens */
+      max-height: 300px;
+    }
+  
+    .circle-button {
+      /* width: 40px; */
+      /* height: 40px; */
+      font-size: 10px;
+    }
+  }
+
+  @keyframes multicolorBlur {
+    0% {
+      box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.8); /* Red */
+    }
+    25% {
+      box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.8); /* Green */
+    }
+    50% {
+      box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.8); /* Blue */
+    }
+    75% {
+      box-shadow: 0 0 15px 5px rgba(255, 255, 0, 0.8); /* Yellow */
+    }
+    100% {
+      box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.8); /* Back to Red */
+    }
+  }
+  
