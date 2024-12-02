@@ -175,9 +175,6 @@ const Website = () => {
             <li className="nav-item">
               <button className="button-style" onClick={rea}> Réalisation</button>
             </li>
-            <li className="nav-item">
-              <button className="button-style" onClick={cv}> CV</button>
-            </li>
             {/* <li className="nav-item">
               <button className="button-style" onClick={formation}> Formation</button>
             </li> */}
