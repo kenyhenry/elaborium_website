@@ -65,7 +65,7 @@ const Realisation = () => {
   };
 
   const handleClickApple = () => {
-    window.location.href = 'https://kenyhenry.github.io/elaborium_website/#/Kaouka';
+    window.location.href = 'https://apps.apple.com/fr/app/kaouka/id6504161795';
   };
 
   const handleClickAndroid = () => {
