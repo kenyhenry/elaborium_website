@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/elaborium_website/static/css/main.82293e99.css",
-    "main.js": "/elaborium_website/static/js/main.00145f37.js",
+    "main.css": "/elaborium_website/static/css/main.126f0d9a.css",
+    "main.js": "/elaborium_website/static/js/main.4dd7b3f5.js",
     "static/js/488.37546b10.chunk.js": "/elaborium_website/static/js/488.37546b10.chunk.js",
     "static/media/invoice-logo.png": "/elaborium_website/static/media/invoice-logo.432e14751ba328d1ed0e.png",
-    "static/media/kaouka-logo.png": "/elaborium_website/static/media/kaouka-logo.88817ab8297bcf544ec9.png",
-    "static/media/2.jpeg": "/elaborium_website/static/media/2.a7b3b205910b5c97afb2.jpeg",
     "static/media/Play_Store.svg.png": "/elaborium_website/static/media/Play_Store.svg.9666cab4aff3d43860f0.png",
+    "static/media/kaouka-logo.png": "/elaborium_website/static/media/kaouka-logo.1b054033435e8e2b6548.png",
     "static/media/11.jpg": "/elaborium_website/static/media/11.cb2d833a444c2c5970ce.jpg",
     "static/media/App_Store.png": "/elaborium_website/static/media/App_Store.d85e2cd10da9b8c9eb19.png",
     "index.html": "/elaborium_website/index.html",
-    "main.82293e99.css.map": "/elaborium_website/static/css/main.82293e99.css.map",
-    "main.00145f37.js.map": "/elaborium_website/static/js/main.00145f37.js.map",
+    "main.126f0d9a.css.map": "/elaborium_website/static/css/main.126f0d9a.css.map",
+    "main.4dd7b3f5.js.map": "/elaborium_website/static/js/main.4dd7b3f5.js.map",
     "488.37546b10.chunk.js.map": "/elaborium_website/static/js/488.37546b10.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82293e99.css",
-    "static/js/main.00145f37.js"
+    "static/css/main.126f0d9a.css",
+    "static/js/main.4dd7b3f5.js"
   ]
 }
