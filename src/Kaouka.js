@@ -35,6 +35,11 @@ const Realisation = () => {
   const main = () => {
     navigate("/Realisation");
   };
+
+  const goToAndroidTester = (page) => {
+    navigate("/Kaouka_app_android");
+  };
+
   const [email, setEmail] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isNotSubmitted, setIsNotSubmitted] = useState(false);
@@ -69,12 +74,15 @@ const Realisation = () => {
   };
 
   const handleClickAndroid = () => {
-    window.location.href = 'https://kenyhenry.github.io/elaborium_website/kaouka-1.0.0.apk';
-    // window.location.href = 'http://localhost:3000/elaborium_website/kaouka-1.0.0.apk';
+    // TODO: instead of download apk send a form to ask for android tester
+    goToAndroidTester();
+    // window.location.href = 'https://kenyhenry.github.io/elaborium_website/kaouka-1.0.0.apk';
+
   };
 
   return (
     <div className="side-container">
+      <button className="button-style" onClick={main}> Return</button>
       <div className="centered-container" onClick={handleClickApple}>
         <div className="centered-content">
           <img alt="kaouka" src={kaouka_logo} loading="lazy" width={100} height={100}></img>
